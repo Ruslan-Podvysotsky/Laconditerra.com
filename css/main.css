@@ -2109,6 +2109,12 @@ input[type="checkbox"]:checked + span{
         .container-fluid {
             margin-top: 65px;
         }
-
     }
-
+@media (min-width: 360px) and (max-width: 717px){
+    .product{
+        width: 90%;
+    }
+    .purchase{
+        width: 100px;
+    }
+}
